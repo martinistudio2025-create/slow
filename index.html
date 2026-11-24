@@ -25,6 +25,7 @@
       </a>
       <nav class="nav" aria-label="Secciones">
         <a href="#lineas" class="nav-link">Líneas</a>
+        <a href="catalogo.html" class="nav-link">Catálogo</a>
         <a href="#proceso" class="nav-link">Proceso</a>
         <a href="#faq" class="nav-link">Preguntas</a>
         <a href="#contacto" class="btn btn-small">Solicitar muestras</a>
@@ -55,9 +56,11 @@
     <section class="trust">
       <div class="container trust-inner">
         <span class="eyebrow">Proyectos con marcas como</span>
-        <div class="trust-brands">
-          <span>SURA</span><span>Inexmoda</span><span>Miro Seguridad</span>
-        </div>
+        <ul class="logo-row" aria-label="Marcas con las que hemos trabajado">
+          <li><img class="client-logo" src="assets/img/clientes/sura.png" alt="SURA" height="44" onerror="this.outerHTML='&lt;span class=&quot;logo-fallback&quot;&gt;SURA&lt;/span&gt;'"></li>
+          <li><img class="client-logo" src="assets/img/clientes/inexmoda.png" alt="Inexmoda" height="42" onerror="this.outerHTML='&lt;span class=&quot;logo-fallback&quot;&gt;Inexmoda&lt;/span&gt;'"></li>
+          <li><img class="client-logo" src="assets/img/clientes/miro-seguridad.svg" alt="Miro Seguridad" height="56" onerror="this.outerHTML='&lt;span class=&quot;logo-fallback&quot;&gt;Miro Seguridad&lt;/span&gt;'"></li>
+        </ul>
         <span class="trust-note">Producción en Medellín, Colombia</span>
       </div>
     </section>
@@ -144,6 +147,7 @@
             <a href="#contacto" class="btn btn-light" data-need="Desarrollo a la medida">Contar mi proyecto</a>
           </article>
         </div>
+        <div><a href="catalogo.html" class="btn btn-large">Ver catálogo completo</a></div>
       </div>
     </section>
 
@@ -181,23 +185,48 @@
       </div>
     </section>
 
-    <!-- SECTORES Y PRUEBA SOCIAL -->
+    <!-- SECTORES -->
     <section class="section section-sand">
-      <div class="container split">
-        <div class="stack-md split-left">
-          <span class="eyebrow">Hecho para tus tipos de proyecto</span>
-          <h2 class="h2-small">Un material, cuatro tipos de espacio</h2>
-          <ul class="chips">
-            <li>Retail</li><li>Residencial</li><li>Hospitality</li><li>Corporativo</li>
-          </ul>
-          <p class="body-lg">Marcas como SURA, Inexmoda y Miro Seguridad ya han trabajado con SLOW. Cuéntanos tu caso y te mostramos qué línea encaja mejor con tu proyecto.</p>
+      <div class="container stack-md">
+        <span class="eyebrow">Hecho para tus tipos de proyecto</span>
+        <h2 class="h2-small">Un material, cuatro tipos de espacio</h2>
+        <ul class="chips">
+          <li>Retail</li><li>Residencial</li><li>Hospitality</li><li>Corporativo</li>
+        </ul>
+        <p class="body-lg">Marcas como SURA, Inexmoda y Miro Seguridad ya han trabajado con SLOW. Cuéntanos tu caso y te mostramos qué línea encaja mejor con tu proyecto.</p>
+      </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <!-- IMPORTANTE: estos testimonios son de EJEMPLO, escritos para probar el diseño.
+         Antes de publicar para clientes reales, reemplázalos por testimonios verdaderos
+         (con autorización) y borra la etiqueta "Ejemplo ilustrativo". -->
+    <section id="testimonios" class="section">
+      <div class="container stack-lg">
+        <div class="section-head">
+          <span class="eyebrow">Lo que dicen quienes especifican</span>
+          <h2 class="h2-small">Voces de arquitectos y diseñadores</h2>
         </div>
-        <!-- TODO: reemplazar por un testimonio real de un arquitecto o interiorista -->
-        <figure class="quote">
-          <span class="quote-mark" aria-hidden="true">“</span>
-          <blockquote>[TESTIMONIO DE UN ARQUITECTO O INTERIORISTA: qué proyecto hizo con SLOW y qué resultado tuvo]</blockquote>
-          <figcaption>[Nombre y apellido] · [Estudio o proyecto]</figcaption>
-        </figure>
+        <div class="quotes">
+          <figure class="quote">
+            <span class="sample-tag">Ejemplo ilustrativo</span>
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <blockquote>Poder tocar la muestra antes de decidir nos dio la seguridad para especificar el material en el proyecto.</blockquote>
+            <figcaption>Camila R. · Arquitecta, estudio de interiorismo</figcaption>
+          </figure>
+          <figure class="quote">
+            <span class="sample-tag">Ejemplo ilustrativo</span>
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <blockquote>Al cliente le encantó que el material tuviera una historia de origen para contar. Cambia la conversación del proyecto.</blockquote>
+            <figcaption>Andrés M. · Diseñador de espacios comerciales</figcaption>
+          </figure>
+          <figure class="quote">
+            <span class="sample-tag">Ejemplo ilustrativo</span>
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <blockquote>La respuesta por WhatsApp fue ágil y la propuesta llegó ordenada, con lo que necesitábamos para presentarla.</blockquote>
+            <figcaption>Valentina G. · Directora de proyectos de arquitectura</figcaption>
+          </figure>
+        </div>
       </div>
     </section>
 
@@ -306,6 +335,7 @@
       <span>© <span id="year">2026</span> SLOW · Medellín, Colombia</span>
     </div>
     <div class="footer-right">
+      <a href="catalogo.html">Catálogo</a>
       <a href="https://www.instagram.com/slowconcretocircular/" target="_blank" rel="noopener">Instagram</a>
       <a href="https://wa.me/573054215050">WhatsApp</a>
       <span>Reciclaje textil convertido en diseño</span>
