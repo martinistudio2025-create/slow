@@ -1,0 +1,9 @@
+Logos de las marcas con las que ha trabajado SLOW.
+
+Archivos que usa index.html:
+  sura.png
+  inexmoda.png
+  miro-seguridad.svg
+
+Si cambias un logo por otro con distinta extension, actualiza la ruta en index.html (busca "client-logo").
+Si falta un archivo, la pagina muestra el nombre de la marca en texto.
