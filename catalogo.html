@@ -1,265 +1,161 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Catálogo | SLOW Concreto Circular</title>
-  <meta name="description" content="Catálogo de revestimientos, mobiliario y objetos de SLOW Concreto Circular, hechos con residuos textiles. Pide muestras o cotiza por WhatsApp.">
-  <meta property="og:title" content="Catálogo | SLOW Concreto Circular">
-  <meta property="og:description" content="Revestimientos, mobiliario y objetos con residuos textiles. Pide muestras físicas para tu proyecto.">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="es_CO">
-  <link rel="icon" type="image/svg+xml" href="assets/img/slow-concreto-circular.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap">
-  <link rel="stylesheet" href="css/styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catálogo | SLOW Concreto Circular</title>
+<meta name="description" content="Catálogo de revestimientos, ambientes, mobiliario y objetos en concreto con residuos textiles. Pide muestra o cotización por WhatsApp.">
+<meta property="og:title" content="Catálogo | SLOW Concreto Circular">
+<meta property="og:description" content="Catálogo de revestimientos, ambientes, mobiliario y objetos en concreto con residuos textiles. Pide muestra o cotización por WhatsApp.">
+<meta property="og:image" content="assets/img/hero-arcos.jpg">
+<meta name="theme-color" content="#F6F1E9">
+<link rel="icon" href="assets/img/slow-concreto-circular.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
 </head>
 <body>
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="site-header">
+<div class="topbar"><div class="wrap"><span>Concreto con residuos textiles. Hecho en Medellín.</span><span>Muestras físicas para arquitectos y diseñadores</span></div></div>
+<div class="wrap header-row">
+<a class="logo" href="index.html" aria-label="SLOW Concreto Circular, inicio"><img src="assets/img/slow-concreto-circular.svg" alt="SLOW Concreto Circular" width="160" height="55"></a>
+<nav class="nav" aria-label="Principal"><a href="index.html">Inicio</a><a href="catalogo.html" aria-current="page">Catálogo</a><a href="proceso.html">Proceso</a><a href="contacto.html">Contacto</a><a class="btn btn-sm" href="contacto.html?need=muestras">Pedir muestras</a></nav>
+</div>
+</header>
+<main id="main">
 
-  <div class="site-header">
-    <header class="container header-inner">
-      <a href="index.html" class="logo-link" aria-label="SLOW Concreto Circular, inicio">
-        <img src="assets/img/slow-concreto-circular.png" alt="SLOW Concreto Circular" width="168" height="57">
-      </a>
-      <nav class="nav" aria-label="Secciones">
-        <a href="index.html" class="nav-link">Inicio</a>
-        <a href="catalogo.html" class="nav-link is-active" aria-current="page">Catálogo</a>
-        <a href="index.html#faq" class="nav-link">Preguntas</a>
-        <a href="index.html#contacto" class="btn btn-small">Solicitar muestras</a>
-      </nav>
-    </header>
-  </div>
+<section class="wrap page-head">
+<p class="kicker">Catálogo</p>
+<h1 class="display">Piezas para <em>especificar.</em></h1>
+<p class="lede">Revestimientos, ambientes de referencia, mobiliario y objetos. Toca una pieza para verla en grande y pedir muestra o cotización por WhatsApp.</p>
+</section>
 
-  <main>
-    <section class="container cat-hero">
-      <span class="eyebrow">Catálogo</span>
-      <h1>Piezas para especificar en tu próximo proyecto</h1>
-      <p class="lead">Revestimientos, mobiliario y objetos hechos con residuos textiles. Pide muestras físicas o cotiza cualquier pieza por WhatsApp. Medidas, acabados y cantidades los definimos contigo según el proyecto.</p>
-    </section>
+<div class="filters" role="group" aria-label="Filtrar catálogo"><div class="wrap">
+<button class="chip" type="button" data-filter="todo" aria-pressed="true">Todo</button>
+<button class="chip" type="button" data-filter="revestimientos" aria-pressed="false">Revestimientos</button>
+<button class="chip" type="button" data-filter="ambientes" aria-pressed="false">Ambientes</button>
+<button class="chip" type="button" data-filter="mobiliario" aria-pressed="false">Mobiliario y objetos</button>
+<button class="chip" type="button" data-filter="medida" aria-pressed="false">A la medida</button>
+</div></div>
 
-    <div class="filters">
-      <div class="container filters-inner" role="group" aria-label="Filtrar catálogo">
-        <button type="button" class="chip-btn" data-filter="all" aria-pressed="true">Todo</button>
-        <button type="button" class="chip-btn" data-filter="revestimientos" aria-pressed="false">Revestimientos</button>
-        <button type="button" class="chip-btn" data-filter="ambientes" aria-pressed="false">Ambientes</button>
-        <button type="button" class="chip-btn" data-filter="mobiliario" aria-pressed="false">Mobiliario y objetos</button>
-        <button type="button" class="chip-btn" data-filter="medida" aria-pressed="false">A la medida</button>
-      </div>
-    </div>
+<div class="wrap">
+<section class="cat-section" id="revestimientos" data-cat="revestimientos">
+<div class="cat-head"><h2>Revestimientos</h2><span class="count">11 piezas · azul, granate y blanco</span></div>
+<p class="cat-intro">Formas modulares para muros en retail, hospitality, residencial y corporativo. Disponibles en otros colores y acabados bajo pedido.</p>
+<ul class="mosaic"><li class="tile" data-name="Colección completa de formas (azul)" data-desc="Todas las formas de la línea en azul, para ver cómo conversan en un mismo muro." data-full="assets/img/catalogo/coleccion-azul.jpg" data-alt="Colección completa de formas, concreto SLOW en azul" data-tone="blue" data-kind="product">
+<button class="tile-media blue product r45" type="button" aria-label="Ampliar Colección completa de formas (azul)"><img src="assets/img/catalogo/coleccion-azul.jpg" alt="Colección completa de formas, concreto SLOW en azul" loading="lazy"></button>
+<div class="tile-cap"><div><h3>Colección completa de formas</h3><div class="meta"><span class="dot azul"></span><span>Azul</span></div></div><a class="go" data-wa="Hola SLOW, vi el catálogo y me interesa: Colección completa de formas en azul. ¿Me pueden enviar muestra o cotización?" href="https://wa.me/573054215050">Pedir muestra</a></div>
+</li><li class="tile" data-name="Rectángulo vertical (azul)" data-desc="Pieza rectangular vertical en azul índigo. Base modular para muros continuos." data-full="assets/img/catalogo/pieza-rectangulo-azul.jpg" data-alt="Rectángulo vertical, concreto SLOW en azul" data-tone="blue" data-kind="product">
+<button class="tile-media blue product r34" type="button" aria-label="Ampliar Rectángulo vertical (azul)"><img src="assets/img/catalogo/pieza-rectangulo-azul.jpg" alt="Rectángulo vertical, concreto SLOW en azul" loading="lazy"></button>
+<div class="tile-cap"><div><h3>Rectángulo vertical</h3><div class="meta"><span class="dot azul"></span><span>Azul</span></div></div><a class="go" data-wa="Hola SLOW, vi el catálogo y me interesa: Rectángulo vertical en azul. ¿Me pueden enviar muestra o cotización?" href="https://wa.me/573054215050">Pedir muestra</a></div>
+</li><li class="tile" data-name="Arco (azul)" data-desc="Pieza en arco para nichos, frentes de mostrador y ritmos en muro." data-full="assets/img/catalogo/pieza-arco-azul.jpg" data-alt="Arco, concreto SLOW en azul" data-tone="blue" data-kind="product">
+<button class="tile-media blue product r11" type="button" aria-label="Ampliar Arco (azul)"><img src="assets/img/catalogo/pieza-arco-azul.jpg" alt="Arco, concreto SLOW en azul" loading="lazy"></button>
+<div class="tile-cap"><div><h3>Arco</h3><div class="meta"><span class="dot azul"></span><span>Azul</span></div></div><a class="go" data-wa="Hola SLOW, vi el catálogo y me interesa: Arco en azul. ¿Me pueden enviar muestra o cotización?" href="https://wa.me/573054215050">Pedir muestra</a></div>
+</li><li class="tile" data-name="Rectángulo vertical (granate)" data-desc="El mismo rectángulo vertical en granate, para acentos cálidos." data-full="assets/img/catalogo/pieza-rectangulo-granate.jpg" data-alt="Rectángulo vertical, concreto SLOW en granate" data-tone="garnet" data-kind="product">
+<button class="tile-media garnet product r56" type="button" aria-label="Ampliar Rectángulo vertical (granate)"><img src="assets/img/catalogo/pieza-rectangulo-granate.jpg" alt="Rectángulo vertical, concreto SLOW en granate" loading="lazy"></button>
+<div class="tile-cap"><div><h3>Rectángulo vertical</h3><div class="meta"><span class="dot granate"></span><span>Granate</span></div></div><a class="go" data-wa="Hola SLOW, vi el catálogo y me interesa: Rectángulo vertical en granate. ¿Me pueden enviar muestra o cotización?" href="https://wa.me/573054215050">Pedir muestra</a></div>
+</li><li class="tile" data-name="Ojiva (azul)" data-desc="Forma ojival de remate apuntado, con presencia casi arquitectónica." data-full="assets/img/catalogo/pieza-ojiva-azul.jpg" data-alt="Ojiva, concreto SLOW en azul" data-tone="blue" data-kind="product">
+<button class="tile-media blue product r45" type="button" aria-label="Ampliar Ojiva (azul)"><img src="assets/img/catalogo/pieza-ojiva-azul.jpg" alt="Ojiva, concreto SLOW en azul" loading="lazy"></button>
+<div class="tile-cap"><div><h3>Ojiva</h3><div class="meta"><span class="dot azul"></span><span>Azul</span></div></div><a class="go" data-wa="Hola SLOW, vi el catálogo y me interesa: Ojiva en azul. ¿Me pueden enviar muestra o cotización?" href="https://wa.me/573054215050">Pedir muestra</a></div>
+</li><li class="tile" data-name="Rectángulo horizontal (granate)" data-desc="Formato horizontal en granate, útil para franjas y zócalos." data-full="assets/img/catalogo/pieza-rectangulo-horizontal-granate.jpg" data-alt="Rectángulo horizontal, concreto SLOW en granate" data-tone="garnet" data-kind="product">
+<button class="tile-media garnet product r54" type="button" aria-label="Ampliar Rectángulo horizontal (granate)"><img src="assets/img/catalogo/pieza-rectangulo-horizontal-granate.jpg" alt="Rectángulo horizontal, concreto SLOW en granate" loading="lazy"></button>
+<div class="tile-cap"><div><h3>Rectángulo horizontal</h3><div class="meta"><span class="dot granate"></span><span>Granate</span></div></div><a class="go" data-wa="Hola SLOW, vi el catálogo y me interesa: Rectángulo horizontal en granate. ¿Me pueden enviar muestra o cotización?" href="https://wa.me/573054215050">Pedir muestra</a></div>
+</li><li class="tile" data-name="Arco con nicho (azul)" data-desc="Arco con hueco interior, pensado para exhibir objetos." data-full="assets/img/catalogo/pieza-arco-nicho-azul.jpg" data-alt="Arco con nicho, concreto SLOW en azul" data-tone="blue" data-kind="product">
+<button class="tile-media blue product r34" type="button" aria-label="Ampliar Arco con nicho (azul)"><img src="assets/img/catalogo/pieza-arco-nicho-azul.jpg" alt="Arco con nicho, concreto SLOW en azul" loading="lazy"></button>
+<div class="tile-cap"><div><h3>Arco con nicho</h3><div class="meta"><span class="dot azul"></span><span>Azul</span></div></div><a class="go" data-wa="Hola SLOW, vi el catálogo y me interesa: Arco con nicho en azul. ¿Me pueden enviar muestra o cotización?" href="https://wa.me/573054215050">Pedir muestra</a></div>
+</li><li class="tile" data-name="Versión en blanco liso (blanco)" data-desc="La línea en acabado blanco liso, una paleta neutra para combinar." data-full="assets/img/catalogo/coleccion-blanco.jpg" data-alt="Versión en blanco liso, concreto SLOW en blanco" data-tone="white" data-kind="product">
+<button class="tile-media white product r11" type="button" aria-label="Ampliar Versión en blanco liso (blanco)"><img src="assets/img/catalogo/coleccion-blanco.jpg" alt="Versión en blanco liso, concreto SLOW en blanco" loading="lazy"></button>
+<div class="tile-cap"><div><h3>Versión en blanco liso</h3><div class="meta"><span class="dot blanco"></span><span>Blanco</span></div></div><a class="go" data-wa="Hola SLOW, vi el catálogo y me interesa: Versión en blanco liso en blanco. ¿Me pueden enviar muestra o cotización?" href="https://wa.me/573054215050">Pedir muestra</a></div>
+</li><li class="tile" data-name="Cuadrada (azul)" data-desc="Módulo cuadrado en azul, para tramas y retículas." data-full="assets/img/catalogo/pieza-cuadrada-azul.jpg" data-alt="Cuadrada, concreto SLOW en azul" data-tone="blue" data-kind="product">
+<button class="tile-media blue product r56" type="button" aria-label="Ampliar Cuadrada (azul)"><img src="assets/img/catalogo/pieza-cuadrada-azul.jpg" alt="Cuadrada, concreto SLOW en azul" loading="lazy"></button>
+<div class="tile-cap"><div><h3>Cuadrada</h3><div class="meta"><span class="dot azul"></span><span>Azul</span></div></div><a class="go" data-wa="Hola SLOW, vi el catálogo y me interesa: Cuadrada en azul. ¿Me pueden enviar muestra o cotización?" href="https://wa.me/573054215050">Pedir muestra</a></div>
+</li><li class="tile" data-name="Acanalada (azul)" data-desc="Superficie acanalada que juega con la luz rasante." data-full="assets/img/catalogo/pieza-acanalada-azul.jpg" data-alt="Acanalada, concreto SLOW en azul" data-tone="blue" data-kind="product">
+<button class="tile-media blue product r45" type="button" aria-label="Ampliar Acanalada (azul)"><img src="assets/img/catalogo/pieza-acanalada-azul.jpg" alt="Acanalada, concreto SLOW en azul" loading="lazy"></button>
+<div class="tile-cap"><div><h3>Acanalada</h3><div class="meta"><span class="dot azul"></span><span>Azul</span></div></div><a class="go" data-wa="Hola SLOW, vi el catálogo y me interesa: Acanalada en azul. ¿Me pueden enviar muestra o cotización?" href="https://wa.me/573054215050">Pedir muestra</a></div>
+</li><li class="tile" data-name="Tubo (azul)" data-desc="Pieza tubular en azul, para volumen y relieve en muro." data-full="assets/img/catalogo/pieza-tubo-azul.jpg" data-alt="Tubo, concreto SLOW en azul" data-tone="blue" data-kind="product">
+<button class="tile-media blue product r34" type="button" aria-label="Ampliar Tubo (azul)"><img src="assets/img/catalogo/pieza-tubo-azul.jpg" alt="Tubo, concreto SLOW en azul" loading="lazy"></button>
+<div class="tile-cap"><div><h3>Tubo</h3><div class="meta"><span class="dot azul"></span><span>Azul</span></div></div><a class="go" data-wa="Hola SLOW, vi el catálogo y me interesa: Tubo en azul. ¿Me pueden enviar muestra o cotización?" href="https://wa.me/573054215050">Pedir muestra</a></div>
+</li></ul>
+</section>
 
-    <!-- REVESTIMIENTOS -->
-    <section class="cat-section" data-cat="revestimientos" id="revestimientos">
-      <div class="container stack-lg">
-        <div class="section-head">
-          <span class="eyebrow">Revestimientos</span>
-          <h2 class="h2-small">Formas y colores para muros</h2>
-          <p class="section-lead">Piezas con fibras textiles visibles, en distintas formas que se combinan para crear patrones. Cada color se produce con el textil recuperado.</p>
-        </div>
-        <div class="feature">
-          <div class="feature-card">
-            <img src="assets/img/catalogo/coleccion-azul.jpg" alt="Colección de piezas de revestimiento en formas variadas con fibras textiles azules" loading="lazy">
-            <div class="piece-body">
-              <h3>Colección completa de formas</h3>
-              <p class="small-note">Rectángulo, arco, ojiva, cuadrada, acanalada y tubo. Se pueden combinar en un mismo muro.</p>
-              <a href="https://wa.me/573054215050" class="btn" data-wa="Colección completa de revestimientos (todas las formas)">Pedir kit de muestras</a>
-            </div>
-          </div>
-          <div class="feature-card">
-            <img src="assets/img/catalogo/coleccion-blanco.jpg" alt="Colección de piezas de revestimiento en blanco liso" loading="lazy">
-            <div class="piece-body">
-              <h3>Versión en blanco liso</h3>
-              <p class="small-note">Las mismas formas en acabado liso, para proyectos que buscan una base neutra.</p>
-              <a href="https://wa.me/573054215050" class="btn" data-wa="Revestimientos en blanco liso">Consultar disponibilidad</a>
-            </div>
-          </div>
-        </div>
-        <div class="grid-4">
-          <article class="piece">
-            <div class="piece-img"><img src="assets/img/catalogo/pieza-rectangulo-azul.jpg" alt="Pieza rectángulo vertical de revestimiento en color azul" loading="lazy"></div>
-            <div class="piece-body">
-              <h3>Rectángulo vertical</h3>
-              <div class="piece-meta"><span class="dot dot-azul" aria-hidden="true"></span>Azul</div>
-              <a href="https://wa.me/573054215050" class="btn" data-wa="Revestimiento: Rectángulo vertical, color azul">Pedir muestra</a>
-            </div>
-          </article>
-          <article class="piece">
-            <div class="piece-img"><img src="assets/img/catalogo/pieza-rectangulo-granate.jpg" alt="Pieza rectángulo vertical de revestimiento en color granate" loading="lazy"></div>
-            <div class="piece-body">
-              <h3>Rectángulo vertical</h3>
-              <div class="piece-meta"><span class="dot dot-granate" aria-hidden="true"></span>Granate</div>
-              <a href="https://wa.me/573054215050" class="btn" data-wa="Revestimiento: Rectángulo vertical, color granate">Pedir muestra</a>
-            </div>
-          </article>
-          <article class="piece">
-            <div class="piece-img"><img src="assets/img/catalogo/pieza-rectangulo-horizontal-granate.jpg" alt="Pieza rectángulo horizontal de revestimiento en color granate" loading="lazy"></div>
-            <div class="piece-body">
-              <h3>Rectángulo horizontal</h3>
-              <div class="piece-meta"><span class="dot dot-granate" aria-hidden="true"></span>Granate</div>
-              <a href="https://wa.me/573054215050" class="btn" data-wa="Revestimiento: Rectángulo horizontal, color granate">Pedir muestra</a>
-            </div>
-          </article>
-          <article class="piece">
-            <div class="piece-img"><img src="assets/img/catalogo/pieza-arco-azul.jpg" alt="Pieza arco de revestimiento en color azul" loading="lazy"></div>
-            <div class="piece-body">
-              <h3>Arco</h3>
-              <div class="piece-meta"><span class="dot dot-azul" aria-hidden="true"></span>Azul</div>
-              <a href="https://wa.me/573054215050" class="btn" data-wa="Revestimiento: Arco, color azul">Pedir muestra</a>
-            </div>
-          </article>
-          <article class="piece">
-            <div class="piece-img"><img src="assets/img/catalogo/pieza-arco-nicho-azul.jpg" alt="Pieza arco con nicho de revestimiento en color azul" loading="lazy"></div>
-            <div class="piece-body">
-              <h3>Arco con nicho</h3>
-              <div class="piece-meta"><span class="dot dot-azul" aria-hidden="true"></span>Azul</div>
-              <a href="https://wa.me/573054215050" class="btn" data-wa="Revestimiento: Arco con nicho, color azul">Pedir muestra</a>
-            </div>
-          </article>
-          <article class="piece">
-            <div class="piece-img"><img src="assets/img/catalogo/pieza-ojiva-azul.jpg" alt="Pieza ojiva de revestimiento en color azul" loading="lazy"></div>
-            <div class="piece-body">
-              <h3>Ojiva</h3>
-              <div class="piece-meta"><span class="dot dot-azul" aria-hidden="true"></span>Azul</div>
-              <a href="https://wa.me/573054215050" class="btn" data-wa="Revestimiento: Ojiva, color azul">Pedir muestra</a>
-            </div>
-          </article>
-          <article class="piece">
-            <div class="piece-img"><img src="assets/img/catalogo/pieza-cuadrada-azul.jpg" alt="Pieza cuadrada de revestimiento en color azul" loading="lazy"></div>
-            <div class="piece-body">
-              <h3>Cuadrada</h3>
-              <div class="piece-meta"><span class="dot dot-azul" aria-hidden="true"></span>Azul</div>
-              <a href="https://wa.me/573054215050" class="btn" data-wa="Revestimiento: Cuadrada, color azul">Pedir muestra</a>
-            </div>
-          </article>
-          <article class="piece">
-            <div class="piece-img"><img src="assets/img/catalogo/pieza-acanalada-azul.jpg" alt="Pieza acanalada de revestimiento en color azul" loading="lazy"></div>
-            <div class="piece-body">
-              <h3>Acanalada</h3>
-              <div class="piece-meta"><span class="dot dot-azul" aria-hidden="true"></span>Azul</div>
-              <a href="https://wa.me/573054215050" class="btn" data-wa="Revestimiento: Acanalada, color azul">Pedir muestra</a>
-            </div>
-          </article>
-          <article class="piece">
-            <div class="piece-img"><img src="assets/img/catalogo/pieza-tubo-azul.jpg" alt="Pieza tubo de revestimiento en color azul" loading="lazy"></div>
-            <div class="piece-body">
-              <h3>Tubo</h3>
-              <div class="piece-meta"><span class="dot dot-azul" aria-hidden="true"></span>Azul</div>
-              <a href="https://wa.me/573054215050" class="btn" data-wa="Revestimiento: Tubo, color azul">Pedir muestra</a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
+<section class="cat-section" id="ambientes" data-cat="ambientes">
+<div class="cat-head"><h2>Ambientes</h2><span class="count">7 referencias ilustrativas</span></div>
+<p class="cat-intro">Así se podría ver el material aplicado. Son imágenes ilustrativas, no proyectos entregados.</p>
+<ul class="mosaic"><li class="tile" data-name="Restaurante" data-desc="Imagen ilustrativa del material aplicado en un restaurante." data-full="assets/img/catalogo/ambiente-restaurante.jpg" data-alt="Restaurante, concreto SLOW" data-tone="sand" data-kind="ambient">
+<button class="tile-media sand r34" type="button" aria-label="Ampliar Restaurante"><img src="assets/img/catalogo/ambiente-restaurante.jpg" alt="Restaurante, concreto SLOW" loading="lazy"></button>
+<div class="tile-cap"><div><h3>Restaurante</h3><div class="meta"><span>Hospitality · ilustrativa</span></div></div><a class="go" data-wa="Hola SLOW, vi el catálogo y me interesa: Restaurante. ¿Me pueden enviar muestra o cotización?" href="https://wa.me/573054215050">Quiero algo así</a></div>
+</li><li class="tile" data-name="Café" data-desc="Imagen ilustrativa del material aplicado en un café." data-full="assets/img/catalogo/ambiente-cafe.jpg" data-alt="Café, concreto SLOW" data-tone="sand" data-kind="ambient">
+<button class="tile-media sand r11" type="button" aria-label="Ampliar Café"><img src="assets/img/catalogo/ambiente-cafe.jpg" alt="Café, concreto SLOW" loading="lazy"></button>
+<div class="tile-cap"><div><h3>Café</h3><div class="meta"><span>Retail · ilustrativa</span></div></div><a class="go" data-wa="Hola SLOW, vi el catálogo y me interesa: Café. ¿Me pueden enviar muestra o cotización?" href="https://wa.me/573054215050">Quiero algo así</a></div>
+</li><li class="tile" data-name="Recepción" data-desc="Imagen ilustrativa del material aplicado en una recepción." data-full="assets/img/catalogo/ambiente-recepcion.jpg" data-alt="Recepción, concreto SLOW" data-tone="sand" data-kind="ambient">
+<button class="tile-media sand r45" type="button" aria-label="Ampliar Recepción"><img src="assets/img/catalogo/ambiente-recepcion.jpg" alt="Recepción, concreto SLOW" loading="lazy"></button>
+<div class="tile-cap"><div><h3>Recepción</h3><div class="meta"><span>Corporativo · ilustrativa</span></div></div><a class="go" data-wa="Hola SLOW, vi el catálogo y me interesa: Recepción. ¿Me pueden enviar muestra o cotización?" href="https://wa.me/573054215050">Quiero algo así</a></div>
+</li><li class="tile" data-name="Sala" data-desc="Imagen ilustrativa del material aplicado en una sala." data-full="assets/img/catalogo/ambiente-sala.jpg" data-alt="Sala, concreto SLOW" data-tone="sand" data-kind="ambient">
+<button class="tile-media sand r54" type="button" aria-label="Ampliar Sala"><img src="assets/img/catalogo/ambiente-sala.jpg" alt="Sala, concreto SLOW" loading="lazy"></button>
+<div class="tile-cap"><div><h3>Sala</h3><div class="meta"><span>Residencial · ilustrativa</span></div></div><a class="go" data-wa="Hola SLOW, vi el catálogo y me interesa: Sala. ¿Me pueden enviar muestra o cotización?" href="https://wa.me/573054215050">Quiero algo así</a></div>
+</li><li class="tile" data-name="Tienda de moda" data-desc="Imagen ilustrativa del material aplicado en una tienda de moda." data-full="assets/img/catalogo/ambiente-tienda.jpg" data-alt="Tienda de moda, concreto SLOW" data-tone="sand" data-kind="ambient">
+<button class="tile-media sand r56" type="button" aria-label="Ampliar Tienda de moda"><img src="assets/img/catalogo/ambiente-tienda.jpg" alt="Tienda de moda, concreto SLOW" loading="lazy"></button>
+<div class="tile-cap"><div><h3>Tienda de moda</h3><div class="meta"><span>Retail · ilustrativa</span></div></div><a class="go" data-wa="Hola SLOW, vi el catálogo y me interesa: Tienda de moda. ¿Me pueden enviar muestra o cotización?" href="https://wa.me/573054215050">Quiero algo así</a></div>
+</li><li class="tile" data-name="Habitación" data-desc="Imagen ilustrativa del material aplicado en una habitación." data-full="assets/img/catalogo/ambiente-habitacion.jpg" data-alt="Habitación, concreto SLOW" data-tone="sand" data-kind="ambient">
+<button class="tile-media sand r34" type="button" aria-label="Ampliar Habitación"><img src="assets/img/catalogo/ambiente-habitacion.jpg" alt="Habitación, concreto SLOW" loading="lazy"></button>
+<div class="tile-cap"><div><h3>Habitación</h3><div class="meta"><span>Residencial · ilustrativa</span></div></div><a class="go" data-wa="Hola SLOW, vi el catálogo y me interesa: Habitación. ¿Me pueden enviar muestra o cotización?" href="https://wa.me/573054215050">Quiero algo así</a></div>
+</li><li class="tile" data-name="Tienda en granate" data-desc="Imagen ilustrativa del material en granate aplicado en una tienda." data-full="assets/img/catalogo/ambiente-tienda-granate.jpg" data-alt="Tienda en granate, concreto SLOW" data-tone="sand" data-kind="ambient">
+<button class="tile-media sand r45" type="button" aria-label="Ampliar Tienda en granate"><img src="assets/img/catalogo/ambiente-tienda-granate.jpg" alt="Tienda en granate, concreto SLOW" loading="lazy"></button>
+<div class="tile-cap"><div><h3>Tienda en granate</h3><div class="meta"><span>Retail · ilustrativa</span></div></div><a class="go" data-wa="Hola SLOW, vi el catálogo y me interesa: Tienda en granate. ¿Me pueden enviar muestra o cotización?" href="https://wa.me/573054215050">Quiero algo así</a></div>
+</li></ul>
+</section>
 
-    <!-- AMBIENTES -->
-    <section class="cat-section" data-cat="ambientes" id="ambientes">
-      <div class="container stack-lg">
-        <div class="section-head">
-          <span class="eyebrow">Ambientes</span>
-          <h2 class="h2-small">Cómo se ve en un espacio</h2>
-          <p class="section-lead">Visualizaciones de ambiente para imaginar los revestimientos en retail, hospitality, residencial y corporativo.</p>
-        </div>
-        <div class="gallery">
-          <figure class="shot"><img src="assets/img/catalogo/ambiente-restaurante.jpg" alt="Visualización de ambiente: Restaurante · Hospitality" loading="lazy"><figcaption>Restaurante · Hospitality</figcaption></figure>
-          <figure class="shot"><img src="assets/img/catalogo/ambiente-cafe.jpg" alt="Visualización de ambiente: Café · Retail" loading="lazy"><figcaption>Café · Retail</figcaption></figure>
-          <figure class="shot"><img src="assets/img/catalogo/ambiente-tienda.jpg" alt="Visualización de ambiente: Tienda de moda · Retail" loading="lazy"><figcaption>Tienda de moda · Retail</figcaption></figure>
-          <figure class="shot"><img src="assets/img/catalogo/ambiente-tienda-granate.jpg" alt="Visualización de ambiente: Tienda en granate · Retail" loading="lazy"><figcaption>Tienda en granate · Retail</figcaption></figure>
-          <figure class="shot"><img src="assets/img/catalogo/ambiente-sala.jpg" alt="Visualización de ambiente: Sala · Residencial" loading="lazy"><figcaption>Sala · Residencial</figcaption></figure>
-          <figure class="shot"><img src="assets/img/catalogo/ambiente-habitacion.jpg" alt="Visualización de ambiente: Habitación · Residencial" loading="lazy"><figcaption>Habitación · Residencial</figcaption></figure>
-          <figure class="shot"><img src="assets/img/catalogo/ambiente-recepcion.jpg" alt="Visualización de ambiente: Recepción · Corporativo" loading="lazy"><figcaption>Recepción · Corporativo</figcaption></figure>
-        </div>
-        <p class="cat-note">Imágenes ilustrativas de ambientación. Para ver el material real, pide muestras físicas.</p>
-      </div>
-    </section>
+<section class="cat-section" id="mobiliario" data-cat="mobiliario">
+<div class="cat-head"><h2>Mobiliario y objetos</h2><span class="count">Referencias de la tienda</span></div>
+<p class="cat-intro">Mesas, floreros y bandejas con la misma materialidad. Ideales para styling y regalos corporativos.</p>
+<ul class="mosaic"><li class="tile" data-name="Mesas de centro" data-desc="Mesas de centro en concreto con residuos textiles." data-full="assets/img/mesas-terrazzo.jpg" data-alt="Mesas de centro, concreto SLOW" data-tone="sand" data-kind="product">
+<button class="tile-media sand product r45" type="button" aria-label="Ampliar Mesas de centro"><img src="assets/img/mesas-terrazzo.jpg" alt="Mesas de centro, concreto SLOW" loading="lazy"></button>
+<div class="tile-cap"><div><h3>Mesas de centro</h3><div class="meta"><span>Terrazzo</span></div></div><a class="go" data-wa="Hola SLOW, vi el catálogo y me interesa: Mesas de centro. ¿Me pueden enviar muestra o cotización?" href="https://wa.me/573054215050">Cotizar</a></div>
+</li><li class="tile" data-name="Florero acanalado" data-desc="Florero acanalado, ideal para styling y regalos corporativos." data-full="assets/img/florero-acanalado.jpg" data-alt="Florero acanalado, concreto SLOW" data-tone="sand" data-kind="product">
+<button class="tile-media sand product r34" type="button" aria-label="Ampliar Florero acanalado"><img src="assets/img/florero-acanalado.jpg" alt="Florero acanalado, concreto SLOW" loading="lazy"></button>
+<div class="tile-cap"><div><h3>Florero acanalado</h3><div class="meta"><span>Acanalado</span></div></div><a class="go" data-wa="Hola SLOW, vi el catálogo y me interesa: Florero acanalado. ¿Me pueden enviar muestra o cotización?" href="https://wa.me/573054215050">Cotizar</a></div>
+</li><li class="tile" data-name="Arcos en composición" data-desc="Piezas en arco compuestas como objeto escultórico." data-full="assets/img/hero-arcos.jpg" data-alt="Arcos en composición, concreto SLOW" data-tone="sand" data-kind="ambient">
+<button class="tile-media sand r11" type="button" aria-label="Ampliar Arcos en composición"><img src="assets/img/hero-arcos.jpg" alt="Arcos en composición, concreto SLOW" loading="lazy"></button>
+<div class="tile-cap"><div><h3>Arcos en composición</h3><div class="meta"><span>Composición</span></div></div><a class="go" data-wa="Hola SLOW, vi el catálogo y me interesa: Arcos en composición. ¿Me pueden enviar muestra o cotización?" href="https://wa.me/573054215050">Cotizar</a></div>
+</li></ul>
+<div class="store" style="margin-top:36px"><div class="store-row"><span class="name">Revestimiento Terra (tela expuesta)</span><span class="cat">Revestimiento</span><span class="price">$195.000</span><a href="https://www.slowreciclaje.com/products/ebr2-revestimiento-terra-tela-expuesta" target="_blank" rel="noopener">Ver en tienda</a></div><div class="store-row"><span class="name">Revestimiento gota</span><span class="cat">Revestimiento</span><span class="price">$195.000</span><a href="https://www.slowreciclaje.com/products/ee1-revestimiento-gota" target="_blank" rel="noopener">Ver en tienda</a></div><div class="store-row"><span class="name">Mesa de centro Origen negra</span><span class="cat">Mobiliario</span><span class="price">$340.000</span><a href="https://www.slowreciclaje.com/products/mesa-grande-50cm" target="_blank" rel="noopener">Ver en tienda</a></div><div class="store-row"><span class="name">Florero Aros grande</span><span class="cat">Objeto</span><span class="price">$85.000</span><a href="https://www.slowreciclaje.com/products/florero-aros-grande" target="_blank" rel="noopener">Ver en tienda</a></div><div class="store-row"><span class="name">Bandeja Irregular</span><span class="cat">Objeto</span><span class="price">$115.000</span><a href="https://www.slowreciclaje.com/products/bandeja-irregular" target="_blank" rel="noopener">Ver en tienda</a></div><div class="store-row"><span class="name">Bandeja Arcoíris pequeña</span><span class="cat">Objeto</span><span class="price">$70.000</span><a href="https://www.slowreciclaje.com/products/base-arcoiris-pequena" target="_blank" rel="noopener">Ver en tienda</a></div><div class="store-row"><span class="name">Florero Liso pequeño</span><span class="cat">Objeto</span><span class="price">$65.000</span><a href="https://www.slowreciclaje.com/products/florero-liso" target="_blank" rel="noopener">Ver en tienda</a></div><div class="store-row"><span class="name">Florero Split mini</span><span class="cat">Objeto</span><span class="price">$55.000</span><a href="https://www.slowreciclaje.com/products/florero-split-mini" target="_blank" rel="noopener">Ver en tienda</a></div><div class="store-row"><span class="name">Bandeja redonda con borde</span><span class="cat">Objeto</span><span class="price">$55.000</span><a href="https://www.slowreciclaje.com/products/base-redonda-con-borde" target="_blank" rel="noopener">Ver en tienda</a></div><div class="store-row"><span class="name">Bañera grande</span><span class="cat">Objeto</span><span class="price">$80.000</span><a href="https://www.slowreciclaje.com/products/banera-grande" target="_blank" rel="noopener">Ver en tienda</a></div></div>
+<p class="note">Precios de referencia de la tienda en línea, sujetos a cambio. Para proyectos y cantidades te enviamos cotización.</p>
+</section>
 
-    <!-- MOBILIARIO Y OBJETOS -->
-    <section class="cat-section" data-cat="mobiliario" id="mobiliario">
-      <div class="container stack-lg">
-        <div class="section-head">
-          <span class="eyebrow">Mobiliario y objetos</span>
-          <h2 class="h2-small">Piezas con el mismo lenguaje de material</h2>
-        </div>
-        <div class="feature">
-          <div class="feature-card">
-            <img src="assets/img/mesas-terrazzo.jpg" alt="Dos mesas auxiliares con tapa clara moteada y patas negras, con un florero blanco" loading="lazy" style="object-fit:cover">
-            <div class="piece-body">
-              <h3>Mobiliario</h3>
-              <p class="small-note">Mesas y piezas con carácter para espacios comerciales y residenciales.</p>
-              <a href="https://wa.me/573054215050" class="btn" data-wa="Cotización de mobiliario">Cotizar mobiliario</a>
-            </div>
-          </div>
-          <div class="feature-card">
-            <img src="assets/img/florero-acanalado.jpg" alt="Florero blanco acanalado con flores secas sobre un fondo de concreto" loading="lazy" style="object-fit:cover">
-            <div class="piece-body">
-              <h3>Objetos y floreros</h3>
-              <p class="small-note">Floreros, bandejas y piezas pequeñas para styling y regalos corporativos.</p>
-              <a href="https://wa.me/573054215050" class="btn" data-wa="Cotización de objetos o regalos corporativos">Cotizar objetos</a>
-            </div>
-          </div>
-        </div>
-        <div>
-          <h3 style="margin-bottom:12px">Referencias en la tienda online</h3>
-          <div class="store-table-wrap">
-            <table class="store-table">
-              <thead><tr><th scope="col">Producto</th><th scope="col">Línea</th><th scope="col">Precio de referencia</th><th scope="col"><span class="sr-only">Enlace</span></th></tr></thead>
-              <tbody>
-              <tr><td>EBR1 Revestimiento Terra</td><td>Revestimiento</td><td class="price">$195.000</td><td><a class="row-link" href="https://www.slowreciclaje.com/products/ebr2-revestimiento-terra-tela-expuesta" target="_blank" rel="noopener">Ver en la tienda</a></td></tr>
-              <tr><td>EE1 Revestimiento gota</td><td>Revestimiento</td><td class="price">$195.000</td><td><a class="row-link" href="https://www.slowreciclaje.com/products/ee1-revestimiento-gota" target="_blank" rel="noopener">Ver en la tienda</a></td></tr>
-              <tr><td>Mesa de Centro Origen Negra</td><td>Mobiliario</td><td class="price">$340.000</td><td><a class="row-link" href="https://www.slowreciclaje.com/products/mesa-grande-50cm" target="_blank" rel="noopener">Ver en la tienda</a></td></tr>
-              <tr><td>Florero Liso Pequeño</td><td>Objeto</td><td class="price">$65.000</td><td><a class="row-link" href="https://www.slowreciclaje.com/products/florero-liso" target="_blank" rel="noopener">Ver en la tienda</a></td></tr>
-              <tr><td>Florero Aros Grande</td><td>Objeto</td><td class="price">$85.000</td><td><a class="row-link" href="https://www.slowreciclaje.com/products/florero-aros-grande" target="_blank" rel="noopener">Ver en la tienda</a></td></tr>
-              <tr><td>Florero Split Mini</td><td>Objeto</td><td class="price">$55.000</td><td><a class="row-link" href="https://www.slowreciclaje.com/products/florero-split-mini" target="_blank" rel="noopener">Ver en la tienda</a></td></tr>
-              <tr><td>Bandeja Arcoiris Pequeña</td><td>Objeto</td><td class="price">$70.000</td><td><a class="row-link" href="https://www.slowreciclaje.com/products/base-arcoiris-pequena" target="_blank" rel="noopener">Ver en la tienda</a></td></tr>
-              <tr><td>Bandeja Irregular</td><td>Objeto</td><td class="price">$115.000</td><td><a class="row-link" href="https://www.slowreciclaje.com/products/bandeja-irregular" target="_blank" rel="noopener">Ver en la tienda</a></td></tr>
-              <tr><td>Bandeja Redonda con Borde</td><td>Objeto</td><td class="price">$55.000</td><td><a class="row-link" href="https://www.slowreciclaje.com/products/base-redonda-con-borde" target="_blank" rel="noopener">Ver en la tienda</a></td></tr>
-              <tr><td>Bañera Grande</td><td>Objeto</td><td class="price">$80.000</td><td><a class="row-link" href="https://www.slowreciclaje.com/products/banera-grande" target="_blank" rel="noopener">Ver en la tienda</a></td></tr>
-              </tbody>
-            </table>
-          </div>
-          <p class="cat-note">Precios de referencia tomados de la tienda online, por confirmar vigencia. Para proyectos y cantidades, cotizamos aparte.</p>
-        </div>
-      </div>
-    </section>
+<section class="cat-section" id="medida" data-cat="medida">
+<div class="custom">
+<h2>¿Tu proyecto necesita algo que <em style="color:#E9B3BE">no existe?</em></h2>
+<div class="side"><p>Desarrollamos materiales, mobiliario, revestimientos y objetos según tus planos, cantidades y tiempos. También colecciones y regalos corporativos para marcas.</p><div class="cta-actions"><a class="btn btn-light" href="contacto.html?need=medida">Contar mi proyecto</a><a class="btn btn-wa" data-wa="Hola SLOW, necesito una pieza a la medida." href="https://wa.me/573054215050">WhatsApp</a></div></div>
+</div>
+</section>
+</div>
 
-    <!-- A LA MEDIDA -->
-    <section class="cat-section" data-cat="medida" id="medida">
-      <div class="container">
-        <div class="product product-dark" style="padding:40px 36px;border-radius:28px;gap:20px">
-          <div class="stack-md">
-            <span class="eyebrow eyebrow-light">A la medida</span>
-            <h3 style="font-size:32px">¿Tu proyecto necesita algo que no está en el catálogo?</h3>
-            <p style="max-width:640px">Desarrollamos materiales, mobiliario, revestimientos y objetos según tus planos, cantidades y tiempos. También colecciones y regalos corporativos para marcas.</p>
-          </div>
-          <a href="https://wa.me/573054215050" class="btn btn-light" data-wa="Desarrollo a la medida">Contar mi proyecto</a>
-        </div>
-      </div>
-    </section>
+<dialog id="viewer" class="viewer" aria-label="Detalle de pieza">
+<button class="viewer-close" type="button" aria-label="Cerrar">×</button>
+<div class="viewer-body"><div class="viewer-img"><img src="" alt=""></div>
+<div class="viewer-info"><p class="label">SLOW Concreto Circular</p><h3></h3><p class="v-desc"></p><a class="btn btn-wa v-cta" href="https://wa.me/573054215050" target="_blank" rel="noopener">Pedir muestra o cotización</a><p class="note">Se abre WhatsApp con el mensaje listo.</p></div></div>
+</dialog>
 
-    <section class="section">
-      <div class="container">
-        <div class="cta-band">
-          <div>
-            <h2>Recibe muestras físicas antes de decidir</h2>
-            <p>Cuéntanos tu proyecto y te respondemos por WhatsApp con los siguientes pasos.</p>
-          </div>
-          <a href="index.html#contacto" class="btn btn-light btn-large">Solicitar muestras</a>
-        </div>
-      </div>
-    </section>
-  </main>
+<div style="height:72px"></div>
+<section class="cta-band"><div class="wrap inner">
+<h2>¿No encuentras <em>tu pieza?</em></h2>
+<div class="side"><p>Te ayudamos a elegir la línea y el acabado para tu proyecto.</p><div class="cta-actions"><a class="btn btn-light" href="contacto.html?need=cotizacion">Hablar de mi proyecto</a><a class="btn btn-wa" data-wa="Hola SLOW, quiero hablar de un proyecto." href="https://wa.me/573054215050">Escribir por WhatsApp</a></div></div>
+</div></section>
 
-  <footer class="container footer">
-    <div class="footer-left">
-      <img src="assets/img/slow-concreto-circular.png" alt="SLOW Concreto Circular" width="150" height="51" loading="lazy">
-      <span>© <span id="year">2026</span> SLOW · Medellín, Colombia</span>
-    </div>
-    <div class="footer-right">
-      <a href="index.html">Inicio</a>
-      <a href="https://www.instagram.com/slowconcretocircular/" target="_blank" rel="noopener">Instagram</a>
-      <a href="https://wa.me/573054215050">WhatsApp</a>
-    </div>
-  </footer>
 
-  <script src="js/catalogo.js"></script>
+</main>
+<footer class="footer"><div class="wrap">
+<div class="footer-grid">
+<div class="footer-brand"><img src="assets/img/slow-concreto-circular.svg" alt="SLOW Concreto Circular" width="200" height="68"><p>Concreto circular con residuos textiles, para espacios que quieren contar de dónde vienen sus materiales.</p></div>
+<div><h4>Explorar</h4><ul><li><a href="index.html">Inicio</a></li><li><a href="catalogo.html">Catálogo</a></li><li><a href="proceso.html">Proceso</a></li><li><a href="contacto.html">Contacto</a></li></ul></div>
+<div><h4>Catálogo</h4><ul><li><a href="catalogo.html#revestimientos">Revestimientos</a></li><li><a href="catalogo.html#ambientes">Ambientes</a></li><li><a href="catalogo.html#mobiliario">Mobiliario y objetos</a></li><li><a href="catalogo.html#medida">A la medida</a></li></ul></div>
+<div><h4>Hablemos</h4><ul><li><a data-wa="Hola SLOW, quiero información." href="https://wa.me/573054215050">WhatsApp +57 305 421 5050</a></li><li><a href="mailto:slowexperimento@gmail.com">slowexperimento@gmail.com</a></li><li><a href="https://www.instagram.com/slowconcretocircular/" target="_blank" rel="noopener">@slowconcretocircular</a></li></ul></div>
+</div>
+<div class="footer-bottom"><span>© 2026 SLOW Concreto Circular · Medellín, Colombia</span><span>Proyecto experimental de <a href="https://www.slowreciclaje.com" target="_blank" rel="noopener" style="text-decoration:underline">SLOW reciclaje textil</a></span></div>
+</div></footer>
+<a class="wa-float" data-wa="Hola SLOW, quiero información sobre sus piezas." href="https://wa.me/573054215050" aria-label="Escribir por WhatsApp"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.5A10 10 0 1 0 12 2Zm5.2 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.2-4.600-4-4.700-4.200-.1-.2-1.100-1.500-1.100-2.800s.7-2 1-2.300c.2-.3.500-.3.700-.3h.5c.2 0 .4 0 .6.500l.8 2c.1.200.1.400 0 .5l-.4.600-.4.400c-.1.200-.3.300-.1.600.2.300.8 1.300 1.700 2.100 1.100 1 2.100 1.300 2.400 1.400.3.100.5.100.6-.1l.9-1.100c.2-.3.400-.2.600-.1l2 1c.3.100.5.200.5.300.100.100.100.700-.1 1.300Z"/></svg><span>WhatsApp</span></a>
+<script src="js/site.js"></script>
 </body>
 </html>
